@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="euc-kr" ?> 
+<BlockGame>
+<Screen>
+	<Size w="600" h="500"></Size>
+</Screen>
+<GamePanel>
+	<Bg>space.jpg</Bg>
+	<Block>
+		<Obj x="10" y="10" w="50" h="30" type="1" img="block1.png"></Obj>
+		<Obj  x="70" y="10" w="50" h="30" type="2" img="block1.png"/>
+		<Obj  x="130" y="10" w="50" h="30" type="3"  img="block1.png" />
+		<Obj x="10" y="50" w="50" h="30" type="1" img="block2.jpg"></Obj>
+		<Obj  x="70" y="50" w="50" h="30" type="2" img="block2.jpg"/>
+		<Obj  x="130" y="50" w="50" h="30" type="3"  img="block2.jpg" />
+	</Block>
+</GamePanel>
+</BlockGame>

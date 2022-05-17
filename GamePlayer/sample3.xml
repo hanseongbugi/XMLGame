@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="euc-kr" ?> 
+<BlockGame>
+<Screen>
+	<Size w="600" h="500"></Size>
+</Screen>
+<GamePanel>
+<Bg>background1.jpg</Bg>
+<Sound>background.wav</Sound>
+<Block>
+<Obj x="268" y="180" w="50" h="50" life="1000" action="null" delay="1000" img="D:\동계 학습 프로젝트\샘플 코드\AuthoringTool\block\Asteroid3.jpg"></Obj>
+<Obj x="99" y="99" w="50" h="50" life="5" action="null" delay="1000" img="D:\동계 학습 프로젝트\샘플 코드\AuthoringTool\block\Asteroid2.jpg"></Obj>
+<Obj x="362" y="63" w="50" h="50" life="1000" action="hidden" delay="1000" img="D:\동계 학습 프로젝트\샘플 코드\AuthoringTool\block\Asteroid2.jpg"></Obj>
+</Block>
+<Item>
+<Obj x="50" y="238" w="80" h="80" life="1000" type="null" action="null" delay="1000" img="item/star.png"></Obj>
+<Obj x="386" y="193" w="80" h="80" life="1000" type="damage" action="null" delay="1000" img="D:\동계 학습 프로젝트\샘플 코드\AuthoringTool\item\damage.png"></Obj>
+</Item>
+<Player>
+<Weapon x="241" y="340" w="90" h="90" damage="1" type="null" img="boundsball.png"></Weapon>
+</Player>
+</GamePanel>
+</BlockGame>

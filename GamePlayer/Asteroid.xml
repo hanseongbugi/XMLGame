@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="euc-kr" ?> 
+<BlockGame>
+<Screen>
+	<Size w="500" h="500"></Size>
+</Screen>
+<GamePanel>
+	<Bg>background1.jpg</Bg>
+	<Sound>background.wav</Sound>
+	<Block>
+		<Obj x="10" y="10" w="50" h="30" life="1" action="hiden" delay="300" img="block\Asteroid1.jpg"></Obj>
+		<Obj  x="70" y="10" w="50" h="30" life="2" action="null" delay="1000" img="block\Asteroid1.jpg"/>
+		<Obj  x="130" y="10" w="50" h="30" life="3" action="shake" delay="300" img="block\Asteroid1.jpg" />
+		<Obj x="10" y="50" w="50" h="30" life="1" action="shake" delay="200" img="block\Asteroid2.jpg"></Obj>
+		<Obj  x="70" y="50" w="50" h="30" life="2" action="shake" delay="1500" img="block\Asteroid2.jpg"/>
+		<Obj  x="130" y="50" w="50" h="30" life="3" action="hiden" delay="500" img="block\Asteroid2.jpg" />
+		<Obj x="10" y="100" w="50" h="30" life="1" action="null" delay="1000" img="block\Asteroid3.jpg"></Obj>
+		<Obj  x="70" y="100" w="50" h="30" life="2" action="null" delay="1000" img="block\Asteroid3.jpg"/>
+		<Obj  x="130" y="100" w="50" h="30" life="3" action="hiden" delay="100" img="block\Asteroid3.jpg" />
+	</Block>
+	<Item>
+	 	<Obj x="300" y="50" w="150" h="100" life="1" type="score" action="null" delay="1000" img="item\star.png"></Obj>
+	 	<Obj x="300" y="150" w="80" h="50" life="1" type="damage" action="null" delay="1000" img="item\damage.png"></Obj> 
+	</Item>
+	<Player>
+		<Weapon x="180" y="380" w="80" h="60" damage="1" type="size" img="boundsball.png"></Weapon>
+	</Player>
+</GamePanel>
+</BlockGame>
